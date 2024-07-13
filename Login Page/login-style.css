@@ -10,7 +10,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: url('../Images/withoutwm.jpg') no-repeat;
+    background: url('../Images/withoutwm-dark.jpg') no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -92,7 +92,7 @@ header {
     
     position: absolute;
     width: 360px;
-    height: 440px;
+    height: auto;
     background: transparent;
     border: 2px solid rgba(255, 255, 255, .5);
     border-radius: 20px;
@@ -166,6 +166,7 @@ header {
 }
 
 .form-box-register h2 {
+    padding-top: 30px;
     font-size: 2em;
     color: #162938;
     text-align: center;
@@ -218,7 +219,7 @@ header {
 }
 
 .remember-checkbox {
-    font-size: 0.9em;
+    font-size: 0.8em;
     color: #162938;
     font-weight: 500;
     margin: -15px 0 15px;
@@ -303,19 +304,17 @@ section {
     text-shadow: 1px 1px 4px black;
     text-align: center;
     font-size: 50px;
-    
-  
+    height: 15vh;
   }
   
   .content p {
     text-align: center;
     color: rgb(61, 95, 141);
     font-size: 20px;
-  font-family: "Josefin Sans", sans-serif;
+    font-family: "Josefin Sans", sans-serif;
     font-size: 20px;
     font-weight: 337;
     font-style: normal;
     padding-bottom: 10%;
-
   }
 

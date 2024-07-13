@@ -198,6 +198,11 @@ header {
     top: -5px;
 }
 
+.input-box input:hover~label,
+.input-box input:valid~label {
+    top: -5px;
+}
+
 .input-box input {
     width: 100%;
     height: 100%;
